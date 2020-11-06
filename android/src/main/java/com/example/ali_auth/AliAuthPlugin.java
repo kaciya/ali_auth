@@ -341,7 +341,7 @@ public class AliAuthPlugin implements FlutterPlugin, MethodCallHandler, Activity
                         .setLogoHeight(92)
                         .setLogoScaleType(ImageView.ScaleType.FIT_CENTER)
                         // slogan 设置
-                        .setSloganText("畅读海量正版绘本, 请先登录")
+                        .setSloganText("全世界再无交流障碍, 请先登录")
                         .setSloganTextColor(Color.parseColor("#AAAAAA"))
                         .setSloganTextSize(12)
                         // 号码设置
