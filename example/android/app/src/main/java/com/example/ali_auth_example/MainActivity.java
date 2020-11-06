@@ -1,4 +1,4 @@
-package com.example.ali_auth_example;
+package com.cyhd.henhoandroid;
 
 import io.flutter.embedding.android.FlutterActivity;
 
