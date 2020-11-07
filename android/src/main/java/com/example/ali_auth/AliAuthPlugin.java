@@ -341,9 +341,9 @@ public class AliAuthPlugin implements FlutterPlugin, MethodCallHandler, Activity
                         .setLogoHeight(92)
                         .setLogoScaleType(ImageView.ScaleType.FIT_CENTER)
                         // slogan 设置
-                        .setSloganText("全世界再无交流障碍, 请先登录")
-                        .setSloganTextColor(Color.parseColor("#AAAAAA"))
-                        .setSloganTextSize(12)
+
+                        .setSloganHidden(true)
+         
                         // 号码设置
                         .setNumberColor(Color.parseColor("#282B31"))
                         .setNumberSize(24)
@@ -372,8 +372,8 @@ public class AliAuthPlugin implements FlutterPlugin, MethodCallHandler, Activity
                         // 勾选框后方文字
                         .setPrivacyState(true)
                         .setAppPrivacyColor(Color.parseColor("#AAAAAA"), Color.parseColor("#69A2E9"))
-                        .setAppPrivacyOne("《用户协议》", "https://xxxxxxxxxx/fox/events/contract")
-                        .setAppPrivacyTwo("《隐私协议》", "https://xxxxxxxxxx/fox/events/privacy")
+                        .setAppPrivacyOne("《用户协议》", "http://datechatagent.chengyouhd.com/zh-CN/Home/UserAgreement?language=3")
+                        .setAppPrivacyTwo("《隐私协议》", "http://datechatagent.chengyouhd.com/zh-CN/Home/Privacy?language=3")
                         .setLogBtnToastHidden(false)
                         .create()
         );

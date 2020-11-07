@@ -37,8 +37,8 @@
     model.logoWidth = 92;
     model.logoHeight = 92;
 
-    model.sloganIsHidden = NO;
-    model.sloganText = [[NSAttributedString alloc] initWithString:@"畅读海量正版绘本, 请先登录" attributes:@{NSForegroundColorAttributeName : [self colorWithHex:0xAAAAAA alpha: 1],NSFontAttributeName : [UIFont systemFontOfSize:12.0]}];
+    model.sloganIsHidden = YES;
+    //model.sloganText = [[NSAttributedString alloc] initWithString:@"畅读海量正版绘本, 请先登录" attributes:@{NSForegroundColorAttributeName : [self colorWithHex:0xAAAAAA alpha: 1],NSFontAttributeName : [UIFont systemFontOfSize:12.0]}];
 
     model.numberColor = [self colorWithHex:0x282B31 alpha: 1];
     model.numberFont = [UIFont systemFontOfSize: 30.0];
@@ -55,8 +55,8 @@
     model.autoHideLoginLoading = NO;
 
 
-    model.privacyOne = @[@"《用户协议》",@"https://xxxxxxxxxx/fox/events/contract"];
-    model.privacyTwo = @[@"《隐私协议》",@"https://xxxxxxxxxx/fox/events/privacy"];
+    model.privacyOne = @[@"《用户协议》",@"http://datechatagent.chengyouhd.com/zh-CN/Home/UserAgreement?language=3"];
+    model.privacyTwo = @[@"《隐私协议》",@"http://datechatagent.chengyouhd.com/zh-CN/Home/Privacy?language=3"];
     model.privacyColors = UIColor.blackColor;
     model.privacyAlignment = NSTextAlignmentCenter;
     model.privacyFont = [UIFont fontWithName:@"PingFangSC-Regular" size:10.0];
