@@ -21,14 +21,14 @@
     model.navColor = UIColor.whiteColor;
     model.navTitle = [[NSAttributedString alloc] initWithString:@"" attributes:@{NSForegroundColorAttributeName : UIColor.whiteColor,NSFontAttributeName : [UIFont systemFontOfSize:20.0]}];
     //model.navIsHidden = NO;
-    model.navBackImage = [UIImage imageNamed:@"icon_close_gray"];
+    model.navBackImage = [UIImage imageNamed:@"icon_close"];
     //model.hideNavBackItem = NO;
     UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     // [rightBtn setTitle:@"更多" forState:UIControlStateNormal];
     model.navMoreView = rightBtn;
 
     model.privacyNavColor = UIColor.whiteColor;
-    model.privacyNavBackImage = [UIImage imageNamed:@"icon_nav_back_gray"];
+    model.privacyNavBackImage = [UIImage imageNamed:@"icon_back"];
     model.privacyNavTitleFont = [UIFont systemFontOfSize:20.0];
     model.privacyNavTitleColor = UIColor.blackColor;
     
