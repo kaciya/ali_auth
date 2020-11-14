@@ -372,8 +372,8 @@ public class AliAuthPlugin implements FlutterPlugin, MethodCallHandler, Activity
                         // 勾选框后方文字
                         .setPrivacyState(true)
                         .setAppPrivacyColor(Color.parseColor("#AAAAAA"), Color.parseColor("#69A2E9"))
-                        .setAppPrivacyOne("《用户协议》", "http://datechatagent.chengyouhd.com/zh-CN/Home/UserAgreement?language=3")
-                        .setAppPrivacyTwo("《隐私协议》", "http://datechatagent.chengyouhd.com/zh-CN/Home/Privacy?language=3")
+                        .setAppPrivacyOne("《用户协议》", "http://d.vrmkj.cn/zh-CN/Home/UserAgreement?language=3")
+                        .setAppPrivacyTwo("《隐私协议》", "http://d.vrmkj.cn/zh-CN/Home/Privacy?language=3")
                         .setLogBtnToastHidden(false)
                         .create()
         );

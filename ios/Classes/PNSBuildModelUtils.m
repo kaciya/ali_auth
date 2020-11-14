@@ -55,8 +55,8 @@
     model.autoHideLoginLoading = NO;
 
 
-    model.privacyOne = @[@"《用户协议》",@"http://datechatagent.chengyouhd.com/zh-CN/Home/UserAgreement?language=3"];
-    model.privacyTwo = @[@"《隐私协议》",@"http://datechatagent.chengyouhd.com/zh-CN/Home/Privacy?language=3"];
+    model.privacyOne = @[@"《用户协议》",@"http://d.vrmkj.cn/zh-CN/Home/UserAgreement?language=3"];
+    model.privacyTwo = @[@"《隐私协议》",@"http://d.vrmkj.cn/zh-CN/Home/Privacy?language=3"];
     model.privacyColors = UIColor.blackColor;
     model.privacyAlignment = NSTextAlignmentCenter;
     model.privacyFont = [UIFont fontWithName:@"PingFangSC-Regular" size:10.0];
